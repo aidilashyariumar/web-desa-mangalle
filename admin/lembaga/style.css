@@ -1,0 +1,30 @@
+.nav-link:hover{
+    color:white !important;
+    font-weight:bold;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.nav-link {
+    text-decoration: none; /* Menghapus garis bawah default */
+    transition: border-bottom 1s ease; /* Efek transisi untuk garis bawah */
+}
+
+.activee{
+    font-weight:bold !important;
+}
+
+.garis{
+    font-weight:bold;
+    border-bottom: 2px solid rgb(0, 145, 19);
+}
+.gariss{
+    font-weight:bold;
+    border-top: 3px solid rgb(255, 255, 255);
+}
+.zoomable {
+    transition: transform 0.3s;
+}
+
+.zoomable:hover {
+    transform: scale(3.2); /* Perbesar gambar saat dihover */
+}

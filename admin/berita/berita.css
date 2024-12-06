@@ -1,0 +1,7 @@
+.zoomable {
+    transition: transform 0.3s;
+}
+
+.zoomable:hover {
+    transform: scale(3.2); /* Perbesar gambar saat dihover */
+}

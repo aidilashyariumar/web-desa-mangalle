@@ -1,0 +1,24 @@
+.nav-link:hover{
+    color:rgb(0, 160, 11) !important;
+    font-weight:bold;
+    border-bottom: 2px solid rgb(0, 160, 11);
+}
+
+.nav-link {
+    text-decoration: none; /* Menghapus garis bawah default */
+    transition: border-bottom 1s ease; /* Efek transisi untuk garis bawah */
+}
+
+.activee{
+    font-weight:bold !important;
+}
+
+.garis{
+    font-weight:bold;
+    border-bottom: 2px solid rgb(0, 160, 11);
+}
+.gariss{
+    font-weight:bold;
+    border-top: 3px solid rgb(0, 160, 11);
+}
+
